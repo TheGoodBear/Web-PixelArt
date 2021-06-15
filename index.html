@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Pixel Art</title>
+
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+
+    <body ondragstart="return false;" ondrop="return false;">
+    
+        <Section id="SplashScreen" onclick="ShowScreen();">
+            <p>Pixel Art</p>
+            <p>Cliquer pour démarrer...</p>
+        </Section>
+
+        <Section id="ArtGrid"></Section>
+        <Section id="Toolbox" onmouseover="ShowToolbox(true);" onmouseout="ShowToolbox(false);">
+            <div id="ColorPalette"></div>
+            <div id="Commands">
+                <div class="CommandButton" onclick="FillGrid();">Remplir la grille</div>
+                <div class="CommandButton" onclick="SaveGrid();">Sauver la grille</div>
+                <div class="CommandButton" onclick="LoadGrid();">Charger la grille</div>
+            </div>
+            <div id="GridSize">
+                <label>Grille</label>
+                <label id="GridWidthLabel" for="GridWidth">largeur</label>
+                <input id="GridWidth" class="Field"></input>
+                <label id="GridHeightLabel" for="GridHeight">hauteur</label>
+                <input id="GridHeight" class="Field"></input>
+                <div class="CommandButton" onclick="CheckGridSize();">Appliquer la nouvelle taille</div>
+            </div>
+        </Section>
+
+    </body>
+
+</html>

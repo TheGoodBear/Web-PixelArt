@@ -1,0 +1,32 @@
+Pixel art advanced
+------------------
+
+Améliore le pixel art en ajoutant les spécifications suivantes (voir le rendu ci-joint) :
+
+• L'ensemble est autant que possible responsive.
+
+• Le panneau latéral devient une boite à outils :
+
+    → elle s'ouvre et se ferme lorsque le curseur de la souris entre ou sort de sa zone
+      (sa bordure reste toujours visible).
+    
+    → la palette contient au moins 10 couleurs.
+    
+    → un bouton permet (avec confirmation par alerte) de remplir l'intégralité de la grille de dessin avec la couleur sélectionnée.
+    
+    → deux champs de saisie ainsi qu'un bouton de confirmation (avec alerte) permettent de modifier la taille de la grille de dessin (entre 10 et 100 cases en largeur comme en hauteur).
+      Les informations saisies par l'utilisateur doivent être validées.
+      La modification de la taille entraine une remise en noir de la grille.
+    
+    → deux boutons dans la boite à outils permettent respectivement de sauvegarder et recharger
+    (avec alerte de confirmation) les données de l'application (couleur sélectionnée, taille de la grille, contenu de la grille).
+    Ceci est possible grâce aux cookies.
+
+• La grille reste intégralement visible même lorsque la boite à outil est affichée
+  (elle se retaille automatiquement).
+
+• On peut dessiner sans interruption tant que le bouton de la souris est enfoncé
+  (et non plus en cliquant sur chaque cellule de la grille).
+
+• Au démarrage, on affiche un petit "splash screen" avec le titre de l'application.
+  Un clic sur le splash screen dessine la grille.

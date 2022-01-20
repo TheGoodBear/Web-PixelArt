@@ -1,0 +1,27 @@
+Pixel art
+---------
+
+Code un petit programme (une seule page html) de dessin de type pixel art en te référant au rendu ci-joint
+(il s'agit d'un exemple, le dessin présenté n'est pas obligatoire).
+
+Spécifications :
+----------------
+
+• Tu peux utiliser si ça t'amuse un préprocesseur CSS mais pas de balise canvas, ni de de framework (Bootstrap, Node, ...).
+  Dans tous les cas ton code doit être homogène.
+
+• La grille de dessin fait 20x20 pixels.
+
+• Lorsque le curseur passe sur une case de la grille, la bordure devient blanche (noire sinon).
+
+• Par défaut, un clic gauche allume la cellule sous le curseur dans la couleur sélectionnée.
+
+• Un panneau latéral contient la palette des couleurs disponibles sous forme de petits blocs.
+  Sa bordure reflète la couleur actuellement sélectionnée.
+
+• Lorsque le curseur passe sur un bloc de couleur, sa bordure devient blanche. 
+  Si le curseur reste au-dessus du bloc, un tooltip avec le nom français de la couleur apparait.
+  Un clic gauche sur le bloc la sélectionne (par défaut la première couleur est sélectionnée).
+
+• Au moins 6 couleurs sont proposées.
+  On doit pouvoir ajouter très simplement de nouvelles couleurs à ton programme en modifiant une seule ligne de code Javascript.
